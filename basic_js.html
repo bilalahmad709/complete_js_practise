@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>js practise</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h2>How to change the innerhtml in js.</h2>
+
+    <script>
+        function namechange(){
+            document.getElementById("intro").innerHTML="my name is Ali Akber";
+        }
+    </script>
+
+    <p id="intro">MY NAME IS BILAL AHMAD.</p>
+
+   <button onclick="namechange()">change name</button>
+   
+   <!-- SECOND EXAMPLE -->
+<br><br>
+<h2>second examole of changing text.</h2>
+
+   <p id="lahore">the weather of lahore is not good. there is a lot of particles in the air and because of foge you can not travel.
+   </p>
+
+   <button onclick="lahore()">what about islam abad</button>
+
+   <script>
+    document.getElementById(lahore).innerHTML="the weather of islam abad is very nice you can go there and can enjoy alot.";
+   </script>
+
 </body>
 </html>
