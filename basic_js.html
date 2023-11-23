@@ -22,16 +22,70 @@
    
    <!-- SECOND EXAMPLE -->
 <br><br>
-<h2>second examole of changing text.</h2>
 
-   <p id="lahore">the weather of lahore is not good. there is a lot of particles in the air and because of foge you can not travel.
-   </p>
+<h2>second example of changing text.</h2>
 
-   <button onclick="lahore()">what about islam abad</button>
+<!-- buttons container -->
 
-   <script>
-    document.getElementById(lahore).innerHTML="the weather of islam abad is very nice you can go there and can enjoy alot.";
-   </script>
+<div id="button_container">
+    <button onclick="islamabad()" class="button">what about islam abad</button>
+    <button onclick="peshawar()" class="button">what about peshawar</button>
+</div>
 
+<p id="lahore">the weather of lahore is not good. there is alot of dust and particles in the air. you can not travel like in normal routine.</p>
+
+
+<!-- functions -->
+<script>
+   function islamabad(){
+       document.getElementById("lahore").innerHTML="the weather of islam abad is very good. if you will go there, then you will enjoy alot."
+   }
+   function peshawar(){
+       document.getElementById("lahore").innerHTML="The weather of peshawar is also good. no dust is there. rain is expected in the upcoming days. the envirnment is also good."
+   }
+
+
+</script>
+
+
+<!-- bulb on/off practise -->
+<h2>changing of images</h2>
+
+
+<!-- date and time practise --><br>
+
+<h2>finding the currrent date and time</h2>
+<p id="date">the current date is :</p>
+<button onclick="document.getElementById('date').innerHTML=Date()">Date is </button>
+
+
+
+<br><br>
+<!-- examples of string -->
+
+<h2>PRACTISE OF STRING METHODS: </h2><br>
+<script>
+var name= "BILAL AHMAD. ";
+var clas= "bscs.";
+var password="alijn12";
+
+document.write("My name is :"+name);
+document.write("I read in class:" + clas);
+
+
+// for finding the type of string, we use typeof() method
+
+document.write("<br><br>The type of name is :"+typeof(name));
+
+//for finding the length of a string we use lentgh method.
+
+document.write("<br><br>The length of name is:  "+ name.length);
+
+//for checking the length of the password
+
+if(password.length<8){
+    document.write("<br><br> The length of password must be 8 or more than 8 characters.");
+}
+</script>
 </body>
 </html>

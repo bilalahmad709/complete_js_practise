@@ -3,3 +3,24 @@
     background-color: rgb(80, 80, 182);
     font-size: 30px;
 }
+#button_container{
+    padding: 20px;
+   
+}
+.button{
+    color: rgb(17, 17, 49);
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 10px;
+}
+h2{
+    display: flex;
+   justify-content: center; 
+    align-items: center;
+    color: white;
+    background-color: rgb(10, 10, 36);
+    border-radius: 10px;
+    font-family: 'puppins sans serif ';
+    display: inline-block;
+}
