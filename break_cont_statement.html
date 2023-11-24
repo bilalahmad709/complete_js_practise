@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>break and continue statement</title>
+</head>
+<body>
+    <h2> WHAT IS BREAK AND CONTINUE STATEMENT IN JavaScript</h2>
+
+    <!-- difference between break and continue statement -->
+    
+    <P>
+        In JavaScript, break and continue are control flow statements 
+        used within loops (like for, while, do-while) to alter the flow of execution.
+        
+        <h3>Break statement :</h3>
+        break: When encountered inside a loop, break immediately exits the loop it's currently in,
+         regardless of the loop condition. It completely terminates the loop's execution and moves on to the
+          next statement after the loop.
+
+          <!-- code for break statement -->
+          <code>
+            for (let i = 0; i < 5; i++) 
+            {
+                if (i === 3) {
+                  break; // exits the loop when i equals 3
+                }
+                console.log(i);
+              }
+              // Output: 0, 1, 2
+              
+          </code>
+         
+          <h3>continue statement :</h3>
+          continue: When continue is encountered, it stops the current iteration of the loop and moves to the next iteration,
+           skipping any code that comes after it within the loop for that particular iteration.
+
+           <!-- code for continue statement -->
+           <code>
+            for (let i = 0; i < 5; i++) {
+                if (i === 2) {
+                  continue; // skips the rest of the loop body for i equals 2
+                }
+                console.log(i);
+              }
+              // Output: 0, 1, 3, 4
+              
+           </code>
+    </P>
+</body>
+</html>
