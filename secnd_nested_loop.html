@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd example of nested loop</title>
+</head>
+<body>
+    <h2>second example of nested loop</h2>
+    
+ <!-- javascript start from here -->
+ 
+    <script>
+        for(var a=1; a<=10; a++){
+            for(var b=1; b<=a; b++){
+                document.write(b +" ")
+            }
+            document.write("<br>")
+        }
+    </script>
+
+    <h2>3rd example of nested loop, creating different shapes.</h2>
+
+    <!-- rectangular shape using loops in javascript -->
+    <script>
+        for (var a=1; a<=10; a++){
+            for(b=1;b<=a ;b++){
+                document.write("*" + " " );
+            }
+            document.write("<br>")
+        }
+    </script>
+    <br><br>
+
+    <!-- opposite rectangula shape  -->
+
+    <script>
+        for( var a=10; a>=1;a--){
+            for( var b=10; b>=a; b-- ){
+                document.write("*" + "  ");
+            }
+            document.write("<br>");
+        }
+    </script>
+<br>
+    <!-- squre shape in loop using javascript -->
+    <script>
+        squaree();
+
+        function squaree(){
+            // var noofrows=10;
+            // var noofcols=10;
+            for( var i=1; i<=10; i++){
+                for(var j=1;j<=10; j++){
+                    document.write("*" + " ");
+                }
+                document.write('<br>'); 
+            }
+        }
+    </script>
+
+
+    <!-- hollow square pattern -->
+<br>
+    <h2>Hollow Square pattern</h2>
+
+    <script>
+        for(var i=1;i<=5;i++){
+            for(k=1;k<=5; k++){
+                if(i==1||i==5||k==1||k==5){
+                document.write("*");
+                }
+                else{
+                    document.write("&nbsp;&nbsp");
+                }
+            }
+            document.write("<br>")
+        }
+
+    </script>
+</body>
+</html>
