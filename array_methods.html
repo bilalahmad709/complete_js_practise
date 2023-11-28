@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>methods of Array</title>
+</head>
+<body>
+
+    <!-- differnt methods of array in javascript -->
+
+   
+    <!-- modification / changing  of array  -->
+
+    <h2>Modification of Array :</h2>
+    <script>
+           var a=["My name " ,"is", "ali"];
+           document.write(a + "<br>");
+           a[2]="bilal";
+           document.write(a);
+
+    </script>
+
+
+<!-- sort/ (arranging in alphabetic order) method -->
+<br><br>
+<h2>Sort() method of Array</h2>
+<script>
+   document.write(" before sorting it will print like this : <br><br>");
+
+    var a=["khan", "shahid","Bilal","Ali"];
+    document.write(a);
+    
+    document.write("<br><br> After sorting it will print like this : <br><br>");
+    a.sort();
+    document.write(a);
+</script>
+
+
+<!-- for printing in reverse order we use reverse() method -->
+
+<h2>Reverse() method of Array</h2>
+<script>
+     document.write(" <h4>before reversing it will print like this :</h4> <br>");
+
+var a=["khan", "shahid","Bilal","Ali"];
+document.write(a);
+
+document.write("<br><h4>After reversing it will print like this : </h4>");
+a.reverse();
+document.write(a);
+</script>
+
+<h2>concat() method of Array</h2>
+
+<script>
+    var a=["khan", "shahid","Bilal","Ali"];
+    var b=["shan","kamil"];
+    var c=a.concat("wali","mula");
+    
+    document.write(c);
+    var d=a.concat(b,c);
+
+    document.write("<br>" +d)
+</script>
+
+</body>
+</html>

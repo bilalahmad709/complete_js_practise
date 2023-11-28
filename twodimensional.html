@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>two dimensional Array</title>
+</head>
+<body>
+
+
+    <h2>Two dimensional Array :</h2>
+    <p>
+        a two-dimensional array is an array of arrays. It's a data structure that organizes data in rows and columns,
+         forming a grid-like structure. Each element within the main array holds another array, essentially creating
+          rows and columns of data.
+          <br> for example :
+    </p>
+
+    <script>
+        var table=[
+            ["Name", "F/Name", "Age", "Gender", "Degree"],
+            ["Bilal", "ismail khan", "23 Yrs","Male", "BSCS"],
+            ["Ali","Jan Badshah","24 yrs", "Male","BSCS"],
+            ["Khan ","Ali Raza", "22 yrs","Male","BSIT"]
+        ];
+        
+        document.write("<table border='1px' cellspacing='0'>")
+        for(var a=0;a<4; a++){
+            document.write("<tr>");
+            for(var b=0;b<4;b++){
+                document.write("<td>" + table[a][b]  + "</td>");
+            }
+            document.write("<br>");
+        }
+        document.write("</tr>");
+        document.write("</table>")
+        
+    </script>
+
+</body>
+</html>
