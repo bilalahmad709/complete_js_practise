@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for in loop</title>
+</head>
+<body>
+    <h2>what is for in loop :</h2>
+    <p>
+        in javascript for in loop is used to print object. with out this loop we can not print object directly by using document.write.
+    </p>
+
+    <script>
+        var bilal={
+            firstname :"Bilal",
+            lastname :"Ahmad",
+            Age : 23,
+            Email : "bilalhhke@gmail.com"
+        };
+
+        for( var show in bilal){
+            document.write(show + ":"+bilal[show] + "<br> ");
+        }
+    </script>
+</body>
+</html>
