@@ -1,0 +1,47 @@
+#container{
+    background-color: aqua;
+    height: 600px;
+    border: 3px solid rgb(21, 21, 70);
+    border-radius: 5px;
+}
+
+
+#nav_bar{
+    background-color: rgb(27, 27, 58);
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+#nav_bar nav ul{
+    display: flex;
+    padding: auto;
+    align-items: center;
+
+
+}
+#nav_bar nav ul li{
+    text-decoration: none;
+    padding-left: 20px;
+    list-style-type: none;
+ 
+}
+#nav_bar nav ul li a{
+    padding-left: 80px;
+}
+
+#nested_divs{
+
+}
+
+#img{
+    height: 530px;
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 5px;
+    align-items: center;
+}
+#img img{
+    height: 340px;
+    width: 430px;
+    padding: 10px;
+}
