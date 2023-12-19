@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map method</title>
+</head>
+<body>
+    <h2>map () method in JavaScript</h2>
+    <p>
+        map() is a method/ function in javascript used to create another array from the existing 
+        array, without disturing the existing array.
+    </p>
+    <script>
+        document.write("this is an array <br><br>")
+        var arry=[10,20,30,40,50];
+        document.write(arry +"<br><br>");
+
+        document.write("This is another array created by the existing array using map() method : <br> <br>");
+
+        var a= arry.map(test);
+        document.write(a);
+        function test(x){
+            return x*10;
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
