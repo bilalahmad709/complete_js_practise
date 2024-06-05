@@ -67,3 +67,16 @@ document.write(bilal +"<br><br>");
 document.write("After applying Remove() method it will look like this: i.e 'khan' will be removed <br><br>");
 delete bilal[4];
 document.write(bilal);
+
+// POP method
+document.write("<br> <h2> POP() method of Array:</h2><br>");
+document.write("<p> POP() method is used to delete the last element of the Array, such as</p>");
+
+var a= ['bilal','ali','shayaan', 'huzaifa', 'akram'];
+
+document.write("<br>" + a + "<br>");
+
+document.write("<br> After applying POP() method it will look like this: i-e the last element(akram) will be deleted. <br><br>");
+a.pop();
+
+document.write(a);
