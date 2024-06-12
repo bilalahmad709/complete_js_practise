@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innertext</title>
+
+    <style>
+        body{
+            font-family: 'poppins', sans-serif;
+            background-color: aquamarine;
+        }
+h1{
+    color:blue ;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1> innerText Vs innerHTML</h1>
+    <br>
+    <h2>what is innerText:</h2>
+    <p>
+        In JavaScript, innerText is a property of an HTML element that allows you to get or set the text content inside that element, excluding any HTML tags. Unlike innerHTML, which returns all the HTML within an element, innerText returns just the visible text, as displayed by the browser. <br> For Example:
+    </p>
+
+    <p id="text"> hello world! <strong>Welcome YOUUUUU Alll</strong></p>
+    <button onclick="change()"> change me</button>
+
+    <br>
+    <button onclick="change_again()">change me again</button>
+
+    <script>
+       
+
+        function change(){
+            var text=document.getElementById('text');
+            text.innerText=" Hello World! Congratulation You Allllllllll";
+        }
+
+        function change_again(){
+            var text=document.getElementById('text');
+            text.innerHTML="Hello World! Hope doing <strong>wellllll</strong>";
+            text.style.fontsize='20px';
+            text.style.color='blue';
+            text.style.backgroundColor='lightyellow';
+        }
+    </script>
+</body>
+</html>
