@@ -16,3 +16,8 @@ console.log(attribut);
 
 var attributeNode = document.getElementById("secondparagraph").getAttributeNode("class");
 console.log(attributeNode);
+
+// attributes
+
+var aTTributes= document.getElementById("secondparagraph").attributes;
+console.log(aTTributes);
