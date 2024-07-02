@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changing of images</title>
+
+    <style>
+        body{
+            background-color: aquamarine;
+            
+        }
+        h1{
+            text-align: center;
+            font-family: 'poppins', sans-serif;
+
+        }
+        #main-div{
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+        }
+        #div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            height: 350px;
+            background-color: white;
+            border: 3px solid black;
+        }
+        #image{
+            width: 200px;
+            height: 200px;
+        }
+        #buttons-div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        #buttons{
+            margin: 10px;
+            padding: 20px;
+        }
+      #buttons button{
+        color: blue;
+        border: 3px solid red;
+        padding: 10px;
+        font-weight: bolder;
+        border-radius: 20px;
+      }
+    </style>
+</head>
+<body>
+    <h1>BULB ON/OFF PRACTICE</h1>
+
+    <div id="main-div">
+    <div id="div">
+      <img src="bulboff.jpeg" alt="" id="image">
+    </div>
+    </div>
+
+     <!-- div for the buttons -->
+     <div id="buttons-div">
+        <div id="buttons">
+         <button onclick="turnonbulb()"> Turn ON the BULB</button>
+         <button onclick="turnoffbulb()">Turn OFF the BULB</button>
+        </div>
+    </div>
+
+    <script src="changeimg.js"></script>
+</body>
+</html>
