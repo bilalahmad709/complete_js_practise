@@ -1,0 +1,23 @@
+.abc{
+    color: white;
+    font-size: 25px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.efg{
+    color: orange;
+    font-size: 30px;
+    border: 2px dotted white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.xyz{
+    color: white;
+    font-size: 25px;
+    border: 2px inset red;
+    border-radius: 10px;
+    padding: 10px;
+}
