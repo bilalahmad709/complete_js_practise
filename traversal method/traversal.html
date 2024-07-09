@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversal methods</title>
+    <link rel="stylesheet" href="traversal.css">
+</head>
+<body>
+    <h2>Traversal Methods</h2>
+    <p>In JavaScript, traversal methods are used to navigate and interact with the elements within the Document Object Model (DOM). These methods are essential for manipulating and accessing different parts of a web page.</p> <br>
+
+ <!-- main design -->
+    <h2>Note: <p>this is the main design that we have. we will do changes in it as per our desire step by step</p></h2>
+    <div id="main">
+        <div id="outer">
+            <p>outer</p>
+            <div id="inner">
+                <p>inner</p>
+                <div> A</div>
+                <div> B</div>
+                <div id="c"> C</div>
+                <div>D</div>
+                <div>E</div>
+                <div>F</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- parent elements -->
+     <h2>parentElement Method:</h2>
+     <p>parentNode: Accesses the parent of the current node. <br>
+    we will target the outer div through inner div. <br> for example: <br>
+we will change the background color of outer div.</p> 
+
+    <div id="main1">
+        <div id="outer1">
+            <p>outer</p>
+            <div id="inner1">
+                <p>inner</p>
+                <div> A</div>
+                <div> B</div>
+                <div id="c"> C</div>
+                <div>D</div>
+                <div>E</div>
+                <div>F</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- childern -->
+    
+
+    <script src="traversal.js"></script>
+</body>
+</html>
