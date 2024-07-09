@@ -88,3 +88,42 @@ h2{
     justify-content: center;
     margin: 10px auto;
 }
+
+/* chaniging for childern element */
+#main2{
+    background-color: rgb(99, 94, 50);
+    border: 2px inset red;
+    width: 100vw;
+    padding: 20px auto;
+    color: black;
+    
+    
+}
+#outer2{
+    background-color: rgb(34, 136, 43);
+    border: 2px inset red;
+    width: 90%;
+    padding: 5px;
+    margin: 50px auto;
+    
+}
+#inner2{
+    background-color: rgb(120, 139, 32);
+    border: 2px inset red;
+    width: 90%;
+    padding: 5px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#inner2 div{
+    background-color: rgb(121, 11, 72);
+    border: 5px inset rgb(19, 19, 90);
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
